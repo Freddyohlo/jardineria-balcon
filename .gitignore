@@ -1,0 +1,13 @@
+# Capturas y artefactos de revisión local
+_capturas/
+*.log
+
+# Entornos y cachés de Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db

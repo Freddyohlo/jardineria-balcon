@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /aviso-legal.html
+Disallow: /privacidad.html
+Disallow: /assets/js/
+
+# Sin bloqueo de CSS/JS: Google necesita renderizar la página.
+
+Sitemap: https://balconverde.example/sitemap.xml

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ============ BLOQUE ÚNICO A SUSTITUIR POR PÁGINA ============ -->
+  <title>{{TITULO}} | Balcón Verde</title>
+  <meta name="description" content="{{DESCRIPCION}}">
+  <link rel="canonical" href="https://balconverde.example{{RUTA}}">
+  <meta name="robots" content="{{ROBOTS}}">
+
+  <meta property="og:type" content="{{OG_TIPO}}">
+  <meta property="og:site_name" content="Balcón Verde">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="{{TITULO}}">
+  <meta property="og:description" content="{{DESCRIPCION}}">
+  <meta property="og:url" content="https://balconverde.example{{RUTA}}">
+  <meta property="og:image" content="https://balconverde.example/assets/img/portada-1200.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{TITULO}}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{TITULO}}">
+  <meta name="twitter:description" content="{{DESCRIPCION}}">
+  <meta name="twitter:image" content="https://balconverde.example/assets/img/portada-1200.jpg">
+  <!-- ========== FIN DEL BLOQUE ÚNICO ========== -->
+
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/estilos.css">
+
+  <!-- BLOQUE OPCIONAL: solo en artículos -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{TITULO}}",
+    "description": "{{DESCRIPCION}}",
+    "author": { "@type": "Person", "name": "Marta Ibáñez" },
+    "publisher": { "@type": "Organization", "name": "Balcón Verde" },
+    "datePublished": "{{FECHA_PUBLICACION}}",
+    "dateModified": "{{FECHA_MODIFICACION}}",
+    "mainEntityOfPage": "https://balconverde.example{{RUTA}}"
+  }
+  </script>
+</head>
+
+<body>
+  <a class="salto-contenido" href="#contenido">Saltar al contenido</a>
+
+  <header class="cabecera">
+    <div class="contenedor cabecera__barra">
+      <p class="cabecera__marca"><a href="/">Balcón Verde</a></p>
+      <nav class="cabecera__nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="/" {{CURRENT_INICIO}}>Inicio</a></li>
+          <li><a href="/guias/" {{CURRENT_GUIAS}}>Guías</a></li>
+          <li><a href="/servicios/" {{CURRENT_SERVICIOS}}>Servicios</a></li>
+          <li><a href="/sobre.html" {{CURRENT_SOBRE}}>Sobre</a></li>
+          <li><a href="/contacto.html" {{CURRENT_CONTACTO}}>Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="contenedor migas" aria-label="Migas de pan">
+    <ol>
+      <li><a href="/">Inicio</a></li>
+      {{MIGAS}}
+    </ol>
+  </nav>
+
+  <div class="contenedor distribucion">
+    <main id="contenido">
+      {{CONTENIDO_PRINCIPAL}}
+    </main>
+
+    <aside aria-label="Contenido complementario">
+      {{BARRA_LATERAL}}
+    </aside>
+  </div>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="pie__columnas">
+        <section>
+          <h2>Balcón Verde</h2>
+          <p>Guías de jardinería urbana para balcones pequeños, terrazas estrechas y ventanas con poco espacio. Escribimos desde la experiencia de cultivar en tres metros cuadrados.</p>
+        </section>
+        <section>
+          <h2>Guías</h2>
+          <ul>
+            <li><a href="/guias/riego-en-balcones-pequenos/">Riego en balcones pequeños</a></li>
+            <li><a href="/guias/sustratos-y-macetas/">Sustratos y macetas</a></li>
+            <li><a href="/guias/huerto-vertical/">Huerto vertical</a></li>
+            <li><a href="/guias/luz-en-balcones-con-sombra/">Luz en balcones con sombra</a></li>
+            <li><a href="/guias/plantas-aromaticas/">Plantas aromáticas</a></li>
+            <li><a href="/guias/plagas-y-enfermedades/">Plagas y enfermedades</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>Servicios</h2>
+          <ul>
+            <li><a href="/servicios/diseno-de-balcones/">Diseño de balcones</a></li>
+            <li><a href="/servicios/asesoria-personalizada/">Asesoría personalizada</a></li>
+            <li><a href="/servicios/kit-inicial/">Kit inicial</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>Contacto</h2>
+          <ul>
+            <li><a href="mailto:hola@balconverde.example">hola@balconverde.example</a></li>
+            <li><a href="/contacto.html">Formulario de contacto</a></li>
+            <li><a href="/sitemap.xml">Mapa del sitio</a></li>
+          </ul>
+        </section>
+      </div>
+      <p class="pie__legal">© 2026 Balcón Verde. Contenido bajo licencia CC BY-NC-SA 4.0. <a href="/aviso-legal.html">Aviso legal</a> · <a href="/privacidad.html">Privacidad</a>.</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

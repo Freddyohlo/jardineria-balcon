@@ -1,0 +1,4 @@
+# ads.txt — Balcón Verde
+# Autoriza a Google AdSense a vender inventario en este dominio.
+# Reemplaza pub-0000000000000000 por tu publisher ID real (16 dígitos, prefijo pub-).
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
