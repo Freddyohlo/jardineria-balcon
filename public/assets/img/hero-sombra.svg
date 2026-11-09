@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Ilustración de balcón en sombra: edificios proyectando sombra y plantas de hoja">
+  <rect width="1200" height="630" fill="#eceef0"/>
+  <rect y="500" width="1200" height="130" fill="#dfe2e4"/>
+  <rect y="496" width="1200" height="8" fill="#c6cacd"/>
+
+  <!-- sol tenue -->
+  <circle cx="980" cy="130" r="70" fill="#f2e3b8" opacity="0.75"/>
+
+  <!-- edificio que proyecta sombra -->
+  <rect x="700" y="120" width="220" height="380" fill="#c9ced2"/>
+  <g fill="#b4bac0">
+    <rect x="726" y="150" width="40" height="40"/><rect x="786" y="150" width="40" height="40"/>
+    <rect x="846" y="150" width="40" height="40"/><rect x="726" y="216" width="40" height="40"/>
+    <rect x="786" y="216" width="40" height="40"/><rect x="846" y="216" width="40" height="40"/>
+    <rect x="726" y="282" width="40" height="40"/><rect x="786" y="282" width="40" height="40"/>
+    <rect x="846" y="282" width="40" height="40"/><rect x="726" y="348" width="40" height="40"/>
+    <rect x="786" y="348" width="40" height="40"/><rect x="846" y="348" width="40" height="40"/>
+  </g>
+  <!-- zona de sombra diagonal -->
+  <path d="M700 500 L1200 500 L1200 260 L700 500 Z" fill="#3c4046" opacity="0.14"/>
+
+  <!-- macetas con plantas de hoja (helechos) -->
+  <g>
+    <g fill="#4f7a58">
+      <path d="M200 470 C160 440 150 400 160 370 C190 390 205 430 200 470 Z"/>
+      <path d="M240 470 C280 440 290 400 280 370 C250 390 235 430 240 470 Z"/>
+      <path d="M220 470 C210 430 210 390 220 360 C230 390 230 430 220 470 Z"/>
+    </g>
+    <path d="M176 470 L264 470 L252 560 L188 560 Z" fill="#8a8a7a"/>
+    <rect x="168" y="458" width="104" height="18" rx="5" fill="#6f6f60"/>
+  </g>
+
+  <g>
+    <g fill="#5f8a50">
+      <path d="M420 470 C386 444 376 408 386 382 C412 400 425 436 420 470 Z"/>
+      <path d="M456 470 C490 444 500 408 490 382 C464 400 451 436 456 470 Z"/>
+      <path d="M438 470 C430 434 430 398 438 372 C446 398 446 434 438 470 Z"/>
+    </g>
+    <path d="M398 470 L478 470 L468 556 L408 556 Z" fill="#c17a52"/>
+    <rect x="390" y="458" width="96" height="18" rx="5" fill="#a85f3a"/>
+  </g>
+
+  <!-- maceta con hosta -->
+  <g>
+    <g fill="#6f9a5f">
+      <ellipse cx="600" cy="430" rx="46" ry="30"/>
+      <ellipse cx="560" cy="450" rx="34" ry="22"/>
+      <ellipse cx="640" cy="450" rx="34" ry="22"/>
+    </g>
+    <path d="M548 470 L652 470 L640 560 L560 560 Z" fill="#d08a5f"/>
+    <rect x="540" y="458" width="120" height="18" rx="5" fill="#a85f3a"/>
+  </g>
+</svg>

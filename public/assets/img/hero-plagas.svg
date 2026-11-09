@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Ilustración de plagas y enfermedades: hoja con pulgón, mosca blanca y manchas de oídio">
+  <rect width="1200" height="630" fill="#f6f2e9"/>
+  <rect y="500" width="1200" height="130" fill="#e7dfcc"/>
+  <rect y="496" width="1200" height="8" fill="#cbbfa4"/>
+
+  <!-- hoja grande -->
+  <g>
+    <path d="M420 520 C420 300 560 200 720 200 C720 360 640 520 420 520 Z" fill="#7fae6c"/>
+    <path d="M420 520 C520 440 620 320 700 220" stroke="#4f7a58" stroke-width="6" fill="none"/>
+    <g stroke="#5f8a50" stroke-width="4" fill="none">
+      <path d="M520 452 L500 400"/><path d="M580 396 L560 344"/>
+      <path d="M628 340 L610 292"/><path d="M666 288 L652 246"/>
+    </g>
+    <!-- manchas de oidio -->
+    <g fill="#f0efe6" opacity="0.9">
+      <circle cx="500" cy="440" r="18"/><circle cx="530" cy="420" r="14"/>
+      <circle cx="600" cy="360" r="20"/><circle cx="632" cy="336" r="13"/>
+    </g>
+  </g>
+
+  <!-- pulgones -->
+  <g fill="#5f8a50">
+    <ellipse cx="470" cy="480" rx="12" ry="9"/>
+    <ellipse cx="500" cy="462" rx="11" ry="8"/>
+    <ellipse cx="540" cy="440" rx="12" ry="9"/>
+  </g>
+  <g stroke="#3c6b47" stroke-width="2">
+    <path d="M470 472 L466 462"/><path d="M500 455 L496 445"/><path d="M540 432 L536 422"/>
+  </g>
+
+  <!-- mosca blanca -->
+  <g transform="translate(760 300)">
+    <ellipse cx="0" cy="0" rx="26" ry="18" fill="#eef0ea"/>
+    <ellipse cx="-14" cy="-10" rx="18" ry="12" fill="#f7f8f4" transform="rotate(-25 -14 -10)"/>
+    <ellipse cx="14" cy="-10" rx="18" ry="12" fill="#f7f8f4" transform="rotate(25 14 -10)"/>
+    <ellipse cx="0" cy="10" rx="10" ry="8" fill="#cfd3c8"/>
+  </g>
+
+  <!-- lupa -->
+  <g transform="translate(860 400)">
+    <circle cx="0" cy="0" r="90" fill="none" stroke="#8a6142" stroke-width="16"/>
+    <circle cx="0" cy="0" r="78" fill="#cfe0ea" opacity="0.35"/>
+    <rect x="58" y="58" width="110" height="22" rx="11" fill="#8a6142" transform="rotate(45 58 58)"/>
+  </g>
+
+  <!-- maceta -->
+  <g>
+    <path d="M960 470 L1080 470 L1064 570 L976 570 Z" fill="#c17a52"/>
+    <rect x="952" y="458" width="136" height="18" rx="5" fill="#a85f3a"/>
+  </g>
+</svg>

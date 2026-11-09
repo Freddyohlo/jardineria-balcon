@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Ilustración de sustratos: montones de tierra, perlita y macetas de distintos materiales">
+  <rect width="1200" height="630" fill="#f6f2e9"/>
+  <rect y="440" width="1200" height="190" fill="#e7dfcc"/>
+  <rect y="436" width="1200" height="8" fill="#cbbfa4"/>
+
+  <!-- monton de tierra -->
+  <g>
+    <path d="M120 470 C160 380 260 380 300 470 Z" fill="#8a6142"/>
+    <path d="M140 470 C175 405 250 405 285 470 Z" fill="#9c7150"/>
+  </g>
+  <!-- monton de perlita -->
+  <g>
+    <path d="M360 470 C400 390 500 390 540 470 Z" fill="#e4e0d6"/>
+    <g fill="#fff">
+      <circle cx="420" cy="430" r="5"/><circle cx="450" cy="450" r="4"/>
+      <circle cx="480" cy="425" r="5"/><circle cx="500" cy="452" r="4"/>
+      <circle cx="440" cy="410" r="4"/>
+    </g>
+  </g>
+  <!-- monton de arena -->
+  <g>
+    <path d="M600 470 C640 400 740 400 780 470 Z" fill="#cbb27e"/>
+    <g fill="#b89f68">
+      <circle cx="660" cy="440" r="3"/><circle cx="700" cy="450" r="3"/>
+      <circle cx="720" cy="430" r="3"/>
+    </g>
+  </g>
+
+  <!-- maceta barro -->
+  <g>
+    <path d="M840 430 L950 430 L934 520 L856 520 Z" fill="#c17a52"/>
+    <rect x="832" y="418" width="126" height="18" rx="5" fill="#a85f3a"/>
+    <g fill="#6f9a5f">
+      <ellipse cx="880" cy="410" rx="26" ry="16"/>
+      <ellipse cx="912" cy="410" rx="26" ry="16"/>
+    </g>
+  </g>
+
+  <!-- pala -->
+  <g transform="rotate(-18 600 250)">
+    <rect x="596" y="150" width="12" height="150" rx="6" fill="#9c7150"/>
+    <path d="M580 300 L624 300 L616 350 Q602 366 588 350 Z" fill="#8a8a7a"/>
+  </g>
+</svg>

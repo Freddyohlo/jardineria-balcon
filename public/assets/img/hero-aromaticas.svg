@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Ilustración de plantas aromáticas: albahaca, romero, hierbabuena y tomillo en macetas">
+  <rect width="1200" height="630" fill="#f6f2e9"/>
+  <circle cx="1010" cy="140" r="86" fill="#f2e3b8"/>
+  <rect y="470" width="1200" height="160" fill="#e7dfcc"/>
+  <rect y="466" width="1200" height="8" fill="#cbbfa4"/>
+
+  <!-- albahaca: hojas anchas -->
+  <g>
+    <g fill="#4f9a4f">
+      <ellipse cx="180" cy="360" rx="30" ry="20" transform="rotate(-25 180 360)"/>
+      <ellipse cx="240" cy="360" rx="30" ry="20" transform="rotate(25 240 360)"/>
+      <ellipse cx="210" cy="330" rx="28" ry="20"/>
+      <ellipse cx="170" cy="410" rx="26" ry="18" transform="rotate(-15 170 410)"/>
+      <ellipse cx="250" cy="410" rx="26" ry="18" transform="rotate(15 250 410)"/>
+    </g>
+    <path d="M210 330 L210 470" stroke="#3c6b47" stroke-width="6"/>
+    <path d="M172 470 L248 470 L238 560 L182 560 Z" fill="#c17a52"/>
+    <rect x="164" y="458" width="92" height="18" rx="5" fill="#a85f3a"/>
+  </g>
+
+  <!-- romero: agujas -->
+  <g>
+    <g stroke="#5f8a50" stroke-width="5" stroke-linecap="round">
+      <path d="M420 470 L420 330"/>
+      <path d="M420 380 L386 356"/><path d="M420 380 L454 356"/>
+      <path d="M420 410 L388 392"/><path d="M420 410 L452 392"/>
+      <path d="M420 350 L396 332"/><path d="M420 350 L444 332"/>
+    </g>
+    <path d="M386 470 L454 470 L446 556 L394 556 Z" fill="#8a8a7a"/>
+    <rect x="378" y="458" width="84" height="18" rx="5" fill="#6f6f60"/>
+  </g>
+
+  <!-- hierbabuena: hojas pequeñas redondas -->
+  <g>
+    <g fill="#5f9a5f">
+      <circle cx="620" cy="360" r="18"/><circle cx="660" cy="380" r="18"/>
+      <circle cx="600" cy="400" r="18"/><circle cx="650" cy="340" r="16"/>
+      <circle cx="620" cy="420" r="18"/><circle cx="670" cy="420" r="16"/>
+    </g>
+    <path d="M600 470 L680 470 L670 556 L610 556 Z" fill="#c17a52"/>
+    <rect x="592" y="458" width="96" height="18" rx="5" fill="#a85f3a"/>
+  </g>
+
+  <!-- tomillo: matas bajas -->
+  <g>
+    <g stroke="#6f9a5f" stroke-width="4" stroke-linecap="round">
+      <path d="M850 470 L842 410"/><path d="M870 470 L864 402"/>
+      <path d="M890 470 L890 396"/><path d="M910 470 L916 402"/>
+      <path d="M930 470 L938 412"/>
+    </g>
+    <g fill="#7fae6c">
+      <circle cx="842" cy="410" r="8"/><circle cx="864" cy="402" r="8"/>
+      <circle cx="890" cy="396" r="8"/><circle cx="916" cy="402" r="8"/>
+      <circle cx="938" cy="412" r="8"/>
+    </g>
+    <path d="M826 470 L954 470 L942 556 L838 556 Z" fill="#d08a5f"/>
+    <rect x="818" y="458" width="144" height="18" rx="5" fill="#a85f3a"/>
+  </g>
+</svg>

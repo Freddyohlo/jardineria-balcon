@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Ilustración de un balcón con macetas y plantas">
+  <rect width="1200" height="630" fill="#f6f2e9"/>
+  <circle cx="960" cy="150" r="110" fill="#f2e3b8"/>
+  <rect y="470" width="1200" height="160" fill="#e7dfcc"/>
+  <rect y="466" width="1200" height="8" fill="#cbbfa4"/>
+
+  <!-- barandilla -->
+  <rect x="60" y="372" width="1080" height="14" rx="7" fill="#2f5d3a"/>
+  <rect x="60" y="440" width="1080" height="10" rx="5" fill="#3c6b47"/>
+  <g fill="#3c6b47">
+    <rect x="110" y="386" width="8" height="54"/><rect x="230" y="386" width="8" height="54"/>
+    <rect x="350" y="386" width="8" height="54"/><rect x="470" y="386" width="8" height="54"/>
+    <rect x="590" y="386" width="8" height="54"/><rect x="710" y="386" width="8" height="54"/>
+    <rect x="830" y="386" width="8" height="54"/><rect x="950" y="386" width="8" height="54"/>
+    <rect x="1070" y="386" width="8" height="54"/>
+  </g>
+
+  <!-- maceta 1: alto, tipo árbol -->
+  <g>
+    <path d="M150 350 C150 300 175 275 200 262 C225 275 250 300 250 350 Z" fill="#6f9a5f"/>
+    <path d="M200 262 L200 350" stroke="#3c6b47" stroke-width="4"/>
+    <path d="M162 400 L238 400 L228 466 L172 466 Z" fill="#c17a52"/>
+    <rect x="156" y="388" width="88" height="18" rx="4" fill="#a85f3a"/>
+  </g>
+
+  <!-- maceta 2: media -->
+  <g>
+    <circle cx="330" cy="330" r="34" fill="#7fae6c"/>
+    <circle cx="300" cy="352" r="26" fill="#6f9a5f"/>
+    <circle cx="360" cy="352" r="26" fill="#6f9a5f"/>
+    <path d="M300 410 L360 410 L352 466 L308 466 Z" fill="#d08a5f"/>
+    <rect x="294" y="398" width="72" height="16" rx="4" fill="#a85f3a"/>
+  </g>
+
+  <!-- maceta 3: aromática, hojas finas -->
+  <g>
+    <g stroke="#5f8a50" stroke-width="5" stroke-linecap="round" fill="none">
+      <path d="M470 400 C470 350 462 320 455 300"/>
+      <path d="M480 400 C482 345 492 315 500 296"/>
+      <path d="M490 400 C496 355 508 330 520 314"/>
+    </g>
+    <path d="M448 410 L512 410 L504 466 L456 466 Z" fill="#c17a52"/>
+    <rect x="442" y="398" width="76" height="16" rx="4" fill="#a85f3a"/>
+  </g>
+
+  <!-- maceta 4: colgante -->
+  <g>
+    <path d="M640 120 L640 190" stroke="#8a8a7a" stroke-width="4"/>
+    <path d="M590 190 L690 190 L668 260 L612 260 Z" fill="#a85f3a"/>
+    <g fill="#6f9a5f">
+      <ellipse cx="612" cy="200" rx="22" ry="14"/>
+      <ellipse cx="668" cy="200" rx="22" ry="14"/>
+      <ellipse cx="640" cy="190" rx="26" ry="16"/>
+      <path d="M600 236 C580 250 574 280 582 300" stroke="#6f9a5f" stroke-width="6" fill="none"/>
+      <path d="M680 236 C700 250 706 280 698 300" stroke="#6f9a5f" stroke-width="6" fill="none"/>
+    </g>
+  </g>
+
+  <!-- maceta 5: grande -->
+  <g>
+    <path d="M760 330 C760 285 790 258 820 246 C850 258 880 285 880 330 Z" fill="#7fae6c"/>
+    <path d="M820 246 L820 336" stroke="#3c6b47" stroke-width="4"/>
+    <path d="M756 400 L884 400 L868 466 L772 466 Z" fill="#c17a52"/>
+    <rect x="748" y="388" width="144" height="18" rx="4" fill="#a85f3a"/>
+  </g>
+
+  <!-- maceta 6: flores -->
+  <g>
+    <g fill="#d98a9a">
+      <circle cx="980" cy="330" r="18"/><circle cx="1010" cy="348" r="16"/>
+      <circle cx="950" cy="348" r="16"/><circle cx="980" cy="366" r="18"/>
+    </g>
+    <circle cx="980" cy="348" r="10" fill="#f2e3b8"/>
+    <path d="M952 410 L1008 410 L1000 466 L960 466 Z" fill="#d08a5f"/>
+    <rect x="946" y="398" width="68" height="16" rx="4" fill="#a85f3a"/>
+  </g>
+</svg>

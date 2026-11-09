@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Ilustración de asesoría: videollamada con un balcón en pantalla">
+  <rect width="1200" height="630" fill="#f6f2e9"/>
+  <rect y="500" width="1200" height="130" fill="#e7dfcc"/>
+  <rect y="496" width="1200" height="8" fill="#cbbfa4"/>
+
+  <!-- pantalla -->
+  <g>
+    <rect x="240" y="110" width="720" height="420" rx="18" fill="#2f5d3a"/>
+    <rect x="268" y="138" width="664" height="364" rx="8" fill="#eaf2e6"/>
+
+    <!-- balcon dentro de la pantalla -->
+    <g>
+      <rect x="268" y="420" width="664" height="12" fill="#cbbfa4"/>
+      <rect x="300" y="330" width="600" height="10" rx="5" fill="#2f5d3a"/>
+      <g fill="#3c6b47">
+        <rect x="340" y="340" width="7" height="80"/><rect x="460" y="340" width="7" height="80"/>
+        <rect x="580" y="340" width="7" height="80"/><rect x="700" y="340" width="7" height="80"/>
+        <rect x="820" y="340" width="7" height="80"/>
+      </g>
+      <g fill="#6f9a5f">
+        <path d="M380 320 C380 286 404 268 428 260 C452 268 476 286 476 320 Z"/>
+        <path d="M560 320 C560 292 580 278 600 272 C620 278 640 292 640 320 Z"/>
+        <path d="M740 320 C740 292 760 278 780 272 C800 278 820 292 820 320 Z"/>
+      </g>
+      <path d="M372 330 L484 330 L474 420 L382 420 Z" fill="#c17a52"/>
+      <path d="M552 330 L648 330 L640 420 L560 420 Z" fill="#d08a5f"/>
+      <path d="M732 330 L828 330 L820 420 L740 420 Z" fill="#c17a52"/>
+    </g>
+
+    <!-- ventana de persona -->
+    <g>
+      <rect x="284" y="154" width="180" height="130" rx="8" fill="#cfe0ea"/>
+      <circle cx="374" cy="200" r="26" fill="#e7b98f"/>
+      <path d="M334 284 C334 244 354 226 374 226 C394 226 414 244 414 284 Z" fill="#4b7fa0"/>
+    </g>
+  </g>
+
+  <!-- soporte -->
+  <g>
+    <rect x="570" y="530" width="60" height="40" fill="#3c6b47"/>
+    <rect x="500" y="568" width="200" height="16" rx="8" fill="#2f5d3a"/>
+  </g>
+
+  <!-- bocadillo -->
+  <g>
+    <path d="M980 200 L1150 200 Q1170 200 1170 220 L1170 300 Q1170 320 1150 320 L1040 320 L1000 356 L1010 320 L980 320 Q960 320 960 300 L960 220 Q960 200 980 200 Z" fill="#fff" stroke="#cbbfa4" stroke-width="4"/>
+    <g stroke="#6f9a5f" stroke-width="6" stroke-linecap="round">
+      <path d="M1000 245 L1130 245"/><path d="M1000 275 L1100 275"/>
+    </g>
+  </g>
+</svg>

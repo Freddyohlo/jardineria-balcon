@@ -37,8 +37,23 @@ jardineria-balcon/
     └── assets/
         ├── css/estilos.css
         ├── js/main.js
-        └── img/favicon.svg
+        ├── js/consent.js
+        └── img/
+            ├── favicon.svg
+            ├── hero-*.svg        Ilustraciones del cuerpo (vectoriales)
+            └── *.jpg             Versiones 1200x630 para Open Graph
 ```
+
+## Imágenes
+
+Las ilustraciones son SVG propios (sin bancos de imágenes ni licencias de
+terceros), ligeros y nítidos en cualquier pantalla. Cada página de contenido
+muestra una figura con `figcaption`, y los listados usan miniaturas en las
+tarjetas.
+
+Para las etiquetas Open Graph se genera además un JPG de 1200x630 por página,
+porque las redes sociales no renderizan SVG. Los JPG se obtienen rasterizando
+los SVG; si cambias un SVG, vuelve a generar su JPG correspondiente.
 
 ## Desarrollo local
 

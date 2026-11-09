@@ -417,3 +417,69 @@ button:hover {
 .consent__detalle p {
   margin: 0;
 }
+
+/* ---------- Ilustraciones ---------- */
+
+.ilustracion {
+  margin: 1.8rem 0 2.2rem;
+}
+
+.ilustracion img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--borde);
+  background: #fff;
+}
+
+.ilustracion figcaption {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.88rem;
+  color: var(--gris);
+  margin-top: 0.6rem;
+  line-height: 1.5;
+}
+
+/* Miniaturas en tarjetas de listado */
+.rejilla li {
+  display: flex;
+  flex-direction: column;
+}
+
+.rejilla li > a {
+  order: -2;
+}
+
+.miniatura {
+  order: -1;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin: 0.6rem 0 0.7rem;
+  background: #f6f2e9;
+}
+
+.rejilla li p {
+  margin-bottom: 0;
+}
+
+/* Realce de la entradilla y separación de secciones */
+.entradilla {
+  border-left: 3px solid var(--verde-claro);
+  padding-left: 1rem;
+}
+
+.tarjeta {
+  box-shadow: 0 1px 3px rgba(35, 41, 31, 0.06);
+}
+
+/* Marca con hoja en la cabecera */
+.cabecera__marca a::before {
+  content: "";
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
+  margin-right: 0.45em;
+  vertical-align: -0.06em;
+  background: url("/assets/img/favicon.svg") no-repeat center / contain;
+}

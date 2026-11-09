@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Ilustración de huerto vertical: estructura de madera con bolsillos de plantas">
+  <rect width="1200" height="630" fill="#f6f2e9"/>
+  <circle cx="200" cy="140" r="90" fill="#f2e3b8"/>
+  <rect y="520" width="1200" height="110" fill="#e7dfcc"/>
+  <rect y="516" width="1200" height="8" fill="#cbbfa4"/>
+
+  <!-- estructura -->
+  <g>
+    <rect x="380" y="90" width="20" height="440" fill="#9c7150"/>
+    <rect x="800" y="90" width="20" height="440" fill="#9c7150"/>
+    <rect x="380" y="90" width="440" height="18" fill="#8a6142"/>
+    <rect x="380" y="240" width="440" height="14" fill="#8a6142"/>
+    <rect x="380" y="390" width="440" height="14" fill="#8a6142"/>
+  </g>
+
+  <!-- fila superior: lechugas -->
+  <g>
+    <path d="M470 220 C470 180 500 160 530 160 C560 160 590 180 590 220 Z" fill="#7fae6c"/>
+    <path d="M530 160 L530 226" stroke="#3c6b47" stroke-width="4"/>
+    <path d="M620 220 C620 186 644 168 668 168 C692 168 716 186 716 220 Z" fill="#6f9a5f"/>
+  </g>
+
+  <!-- fila media: fresas -->
+  <g>
+    <g fill="#6f9a5f">
+      <ellipse cx="470" cy="370" rx="34" ry="22"/>
+      <ellipse cx="530" cy="370" rx="34" ry="22"/>
+      <ellipse cx="600" cy="370" rx="34" ry="22"/>
+      <ellipse cx="670" cy="370" rx="34" ry="22"/>
+      <ellipse cx="730" cy="370" rx="34" ry="22"/>
+    </g>
+    <g fill="#d9564f">
+      <circle cx="500" cy="390" r="9"/><circle cx="565" cy="392" r="9"/>
+      <circle cx="635" cy="390" r="9"/><circle cx="700" cy="392" r="9"/>
+    </g>
+  </g>
+
+  <!-- fila inferior: aromáticas -->
+  <g stroke="#5f8a50" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M470 500 C470 470 464 452 458 440"/>
+    <path d="M490 500 C492 466 500 448 508 436"/>
+    <path d="M620 500 C620 468 614 450 608 438"/>
+    <path d="M640 500 C642 468 650 450 658 438"/>
+    <path d="M700 500 C700 470 694 452 688 440"/>
+  </g>
+  <g fill="#8a6142">
+    <rect x="450" y="500" width="70" height="30" rx="6"/>
+    <rect x="600" y="500" width="70" height="30" rx="6"/>
+    <rect x="680" y="500" width="60" height="30" rx="6"/>
+  </g>
+
+  <!-- escalera lateral -->
+  <g stroke="#9c7150" stroke-width="12" stroke-linecap="round">
+    <path d="M900 540 L980 160"/>
+    <path d="M1000 540 L1080 160"/>
+  </g>
+  <g stroke="#8a6142" stroke-width="10" stroke-linecap="round">
+    <path d="M912 470 L1006 470"/><path d="M926 390 L1018 390"/>
+    <path d="M940 310 L1032 310"/><path d="M954 230 L1044 230"/>
+  </g>
+</svg>
